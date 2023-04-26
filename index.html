@@ -1,0 +1,165 @@
+node<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/51f27b15da.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Abrehot Library</title>
+  </head>
+  <body>
+    <header>
+      <i class="fa-sharp fa-solid fa-bars fa-xl hamburger"></i>
+      <nav class="first-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <nav class="second-nav">
+        <div>
+          <a href="index.html"><h2>Abrehot Library</h2></a>
+        </div>
+        <div>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Launched</a></li>
+            <li class="last-item"><a href="#">Library</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Mobile Menu -->
+    <section class="mobile-menu">
+      <button class="x-mark">&times;</button>
+      <ul id="menu-list">
+        <li><a id="" href="index.html">Home</a></li>
+        <li><a id="" href="about.html">About</a></li>
+        <li><a id="" href="#">Contact</a></li>
+      </ul>
+    </section>
+    <!-- Home page Intorduction -->
+    <main class="bg-gray">
+      <section class="introduction home-intro bg-gray font">
+        <h1>"Unleash your curiosity at the library."</h1>
+        <h2>ABREHOT Library</h2>
+        <div class="p-2 border-1 bg-gray">
+          <p class="p-1">
+            "Embark on a journey of discovery and endless learning as you
+            immerse yourself in the boundless treasures of knowledge and
+            imagination available at your fingertips in our library."
+          </p>
+        </div>
+        <p class="tbm-header bg-gray">25<sup>th</sup> May 2023</p>
+        <p class="nyerere">@Arat Killo, Addis Ababa</p>
+      </section>
+      <!-- Home page Main Part -->
+      <section class="main-part font">
+        <h2>OUR SERVICES</h2>
+        <div class="dash">_____</div>
+        <div class="main-div">
+          <div>
+            <img src="images/book_borrowing.png" alt="book Logo" />
+            <h3>Borrow</h3>
+            <p>Books are a uniquely portable magic.Enjoy by being Member.</p>
+          </div>
+          <div>
+            <img src="images/audio-book.png" alt="Audiobook Logo" />
+            <h3>Audio Book</h3>
+            <p>
+              An audiobook is a great way to escape into a story while you're
+              doing other things.
+            </p>
+          </div>
+          <div>
+            <img src="images/place.jpg" alt="place" />
+            <h3>Corner</h3>
+            <p>
+              The best place to study, quiet, well-lit, comfortable, and free
+              from distractions.
+            </p>
+          </div>
+          <div>
+            <img class="bg-red" src="images/coffee.jpg" alt="Coffee" />
+            <h3>Coffee</h3>
+            <p>
+              When you drink coffee ideas march in like the army.Enjoy our
+              Coffee.
+            </p>
+          </div>
+          <div>
+            <img src="images/internet.jpg" alt="Internet" />
+            <h3>Internet</h3>
+            <p>
+              Enjoy our High Bandwidth Internet.we support wifi and Ethernet.
+            </p>
+          </div>
+        </div>
+        <div class="last-main-div">
+          <h3 class="bg-red h3-one">LIBRARIES FUEL IMAGINATION</h3>
+        </div>
+        <h3>SEE OUR LIBRARY RESOURCE</h3>
+      </section>
+      <!-- Featured Partcipants -->
+      <section class="investors font">
+        <h2>Featured Advisors</h2>
+        <div class="dash">_____</div>
+        <div class="partcipants"></div>
+        <button class="none">
+          MORE <i class="fa-solid fa-greater-than fa-rotate-90"></i>
+        </button>
+      </section>
+      <section class="none-mobile last-section">
+        <h2>Partner</h2>
+        <div class="dash">____</div>
+        <div class="partner-div">
+          <div id="barclays">BARCLAYS</div>
+          <div id="toyota">TOYOTA</div>
+          <div id="star">STAR</div>
+          <div id="oil">OIL</div>
+          <div id="google">GOOGLE</div>
+        </div>
+      </section>
+    </main>
+    <footer class="home-footer">
+      <h3>ABREHOT</h3>
+      <p>Home of Free Thinkers.</p>
+    </footer>
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
