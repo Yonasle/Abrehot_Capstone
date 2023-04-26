@@ -42,7 +42,6 @@ nav {
 
 .introduction > h2 {
   background-image: url(images/fire.jpg);
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 125px;
   font-size: 52px !important;
