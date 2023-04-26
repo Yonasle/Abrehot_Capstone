@@ -43,7 +43,6 @@ nav {
 .introduction > h2 {
   background-image: url(images/fire.jpg);
   background-clip: text;
-  -webkit-background-clip: text; /* For Safari/Chrome */
   -webkit-text-fill-color: transparent;
   background-size: 125px;
   font-size: 52px !important;
@@ -421,7 +420,6 @@ footer {
   .second-nav h2 {
     font-family: "Lato", sans-serif;
     background-image: url(images/fire.jpg);
-    background-clip: text;
     -webkit-background-clip: text; /* For Safari/Chrome */
     -webkit-text-fill-color: transparent;
     background-size: 125px;
