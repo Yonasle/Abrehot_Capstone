@@ -127,7 +127,7 @@ Coming soon
 
 ### Deployment
 
-Coming soon
+https://yonasle.github.io/Abrehot_Capstone/index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
