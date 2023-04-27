@@ -23,12 +23,15 @@ header {
 .fa-xl {
   color: #545454;
 }
+
 .first-nav {
   display: none;
 }
+
 .second-nav {
   display: none;
 }
+
 .introduction {
   margin: 0 15px;
   background-image: url("images/Abrehot_main.jpeg");
@@ -440,6 +443,10 @@ footer {
     padding: 20px;
   }
 
+  .partner-div li {
+    font-size: 25px;
+  }
+
   .second-nav ul li {
     padding: 10px;
   }
@@ -533,11 +540,6 @@ footer {
     padding-top: 0;
   }
 
-  .partner-div {
-    display: flex;
-    justify-content: center;
-  }
-
   .partner-div div {
     margin: 0 3%;
   }
@@ -578,6 +580,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 40px;
   }
+
   .partner-div {
     display: flex;
     justify-content: space-around;
@@ -587,9 +590,6 @@ footer {
     padding-top: 30px;
     gap: 30px;
     padding-bottom: 40px;
-  }
-  .partner-div li {
-    font-size: 25px;
   }
 
   #barclays {
