@@ -23,11 +23,12 @@ header {
 .fa-xl {
   color: #545454;
 }
-
-nav {
+.first-nav {
   display: none;
 }
-
+.second-nav {
+  display: none;
+}
 .introduction {
   margin: 0 15px;
   background-image: url("images/Abrehot_main.jpeg");
@@ -206,10 +207,17 @@ footer h3 {
   padding: 0 6%;
 }
 
+.about-main img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
 .overlay {
   position: relative;
   margin: 20px;
   background-color: rgb(245 122 89);
+  text-align: center;
 }
 
 .overlay img {
@@ -217,25 +225,23 @@ footer h3 {
   opacity: 0.4;
 }
 
-.overlay h3 {
+.overlay h3,
+.overlay p {
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   color: white;
-  padding-bottom: 30px;
+}
+
+.overlay h3 {
+  top: 50%;
   font-size: 42px;
   font-weight: 600;
+  padding-bottom: 30px;
 }
 
 .overlay p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  padding-top: 30px;
+  top: calc(50% + 30px);
 }
 
 .image-container {
@@ -560,8 +566,51 @@ footer {
     height: 100%;
   }
 
+  .last-section h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+  }
+
   .last-section {
-    display: none;
+    background-color: #414246;
+    font-family: Lato, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .partner-div {
+    display: flex;
+    justify-content: space-around;
+    background-color: #414246;
+    list-style-type: none;
+    font-family: Lato, sans-serif;
+    padding-top: 30px;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+  .partner-div li {
+    font-size: 25px;
+  }
+
+  #barclays {
+    color: #bebebe;
+  }
+
+  #star {
+    color: #8f8f8f;
+    font-size: 38px;
+  }
+
+  #toyota {
+    color: #707070;
+  }
+
+  #oil {
+    color: #9d9d9b;
+  }
+
+  #google {
+    color: #767676;
   }
 
   .foot {
