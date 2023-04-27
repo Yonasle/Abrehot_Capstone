@@ -81,7 +81,7 @@
 
 ## 🚀 Video about the project <a name="live-demo"></a>
 
-- [Video Link](loom link)
+- [https://www.loom.com/share/d657c2204b39416099a101960555465e]
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -139,7 +139,7 @@ https://yonasle.github.io/Abrehot_Capstone/index.html
 - Twitter: [@twitterhandle](https://twitter.com/Yonasls)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yonas-lemma-b8848823a/)
 
--Summarized video of my project: [loom](loom video link)
+-Summarized video of my project: [https://www.loom.com/share/d657c2204b39416099a101960555465e]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
