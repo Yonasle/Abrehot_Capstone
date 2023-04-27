@@ -73,7 +73,7 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">https://yonasle.github.io/Abrehot_Capstone/</a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [https://yonasle.github.io/Abrehot_Capstone/]
 
