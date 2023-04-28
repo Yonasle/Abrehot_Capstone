@@ -188,6 +188,18 @@ footer h3 {
   text-align: justify;
   text-align-last: center;
   padding: 3%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
 }
 
 .about-main {
@@ -218,8 +230,8 @@ footer h3 {
 }
 
 .about-main p {
-  margin-left: 20%;
   margin-top: 1%;
+  margin-left: 15%;
   width: 75%;
   height: 63px;
   font-family: "Lato", sans-serif;
@@ -229,6 +241,7 @@ footer h3 {
   line-height: 21px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   letter-spacing: -0.03em;
   color: #838383;
@@ -307,6 +320,9 @@ footer h3 {
 
 .ab-intro h1 {
   text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 45px;
 }
 
 .above-div {
@@ -582,6 +598,18 @@ footer {
   .about-intro p {
     margin: 0;
     padding-top: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
   }
 
   .main-div {
