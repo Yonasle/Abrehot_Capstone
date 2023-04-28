@@ -198,7 +198,7 @@ footer h3 {
 .about-main h2 {
   width: 40%;
   height: 28px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -222,18 +222,15 @@ footer h3 {
   margin-top: 1%;
   width: 75%;
   height: 63px;
-
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: -0.03em;
-
   color: #838383;
 }
 
@@ -281,7 +278,7 @@ footer h3 {
 .image-container h2 {
   text-align: center;
   margin: 20px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -293,7 +290,7 @@ footer h3 {
   text-align: justify;
   text-align-last: center;
   padding: 10px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -480,6 +477,11 @@ footer {
     padding: 20px;
   }
 
+  .partner-div li {
+    flex: 1;
+    text-align: center;
+  }
+
   .second-nav ul li {
     padding: 10px;
   }
@@ -573,10 +575,6 @@ footer {
     padding-top: 0;
   }
 
-  .partner-div {
-    margin: 0 3%;
-  }
-
   .main-div div:hover {
     border: 2px solid white;
   }
@@ -603,7 +601,7 @@ footer {
 
   .last-section h2 {
     text-align: center;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -629,16 +627,12 @@ footer {
     padding-bottom: 40px;
   }
 
-  .partner-div li {
-    flex: 1;
-    text-align: center;
-  }
-
   .partner-div li img {
     width: 100%;
     height: 100%;
     object-fit: contain;
   }
+
   .foot {
     background-color: #3e3e3e;
     color: white;
