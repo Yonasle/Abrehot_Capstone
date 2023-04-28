@@ -551,6 +551,13 @@ footer {
     align-content: center;
   }
 
+  .about-main img {
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    margin-top: 5%;
+  }
+
   .main-div div img {
     margin: 0 auto;
   }
@@ -627,12 +634,6 @@ footer {
     color: #838383;
   }
 
-  .about-main img {
-    display: block;
-    margin: 0 auto;
-    width: 45%;
-    margin-top: 5%;
-  }
   .main-div {
     display: flex;
     padding: 0 10%;
